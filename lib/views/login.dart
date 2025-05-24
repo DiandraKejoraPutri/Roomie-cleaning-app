@@ -24,16 +24,15 @@ class LoginPage extends StatelessWidget {
   leading: IconButton(
     icon: Icon(Icons.arrow_back),
     onPressed: () {
-      Navigator.pop(context); // Kembali
+      Navigator.pop(context); 
     },
   ),
-  title: Text("Masuk Pak eko"),
-  centerTitle: true, // teks di tengah
+  title: Text("Log In"),
+  centerTitle: true,
   actions: [
     IconButton(
       icon: Icon(Icons.help),
       onPressed: () {
-        // help
       },
     ),
   ],
@@ -53,7 +52,7 @@ class LoginPage extends StatelessWidget {
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 10),
-              Text("Halo kamu, Login untuk masuk"),
+              Text("Halo!, Login untuk masuk"),
               SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -74,7 +73,7 @@ class LoginPage extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 20),
-              Text("Atau Masuk lewat"),
+              Text("Atau Masuk melalui"),
               SizedBox(height: 20),
               TextField(
                 decoration: InputDecoration(

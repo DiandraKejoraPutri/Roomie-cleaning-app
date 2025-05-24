@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:roomie/views/bangunan.dart';
+import 'package:roomie/views/cuci_setrika.dart';
+import 'package:roomie/views/cuciproperti.dart';
+import 'package:roomie/views/pembersih_umum.dart';
+import 'package:roomie/views/semprotan.dart';
+import 'package:roomie/views/serangga.dart';
 import 'package:roomie/views/splash.dart';
 import 'package:roomie/views/login.dart';
 import 'package:roomie/views/verification.dart';
@@ -21,6 +27,12 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/home': (context) => HomeScreen(),
         '/pembersihHarian': (context) => PembersihHarian(),
+        '/permbersihUmum' : (context) => PembersihUmum(),
+        '/serangga': (context)=> Serangga(),
+        '/bangunan' :(context)=> Bangunan(),
+        '/cucisetrika' :(context)=>CuciSetrika(),
+        '/cuciproperti' :(context)=>Cuciproperti(),
+        '/semprotan' :(context)=>Semprotan()
       },
     );
   }

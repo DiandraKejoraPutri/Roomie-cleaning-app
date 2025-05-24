@@ -31,7 +31,7 @@ class VerificationPage extends StatelessWidget {
             children: [
               SizedBox(height: 30),
               Image.asset(
-                "assets/images/login_illustration.png", // Pastikan path benar!
+              'assets/images/verification_illustration.png',
                 height: 150,
               ),
               SizedBox(height: 20),
