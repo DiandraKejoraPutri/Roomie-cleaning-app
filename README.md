@@ -30,5 +30,14 @@ roomie is an application that we can ordered people for clening our room, huse, 
 ![image](https://github.com/user-attachments/assets/d5739f0d-fa39-4f7f-8b84-45d9be73ad65)
 (semprotan page)
 
+![image](https://github.com/user-attachments/assets/68429984-d4e2-4bb6-a30e-f4f880752b76)
+(pemesanan page)
+![image](https://github.com/user-attachments/assets/1eb77d96-7f24-4382-8d91-ba28aa5731d3)
+(detail pesanan)
+![image](https://github.com/user-attachments/assets/c8827203-c863-41d7-bbfb-2f6c5cfbfffc)
+(verifikasi pesanan)
+
+
+
 
 
