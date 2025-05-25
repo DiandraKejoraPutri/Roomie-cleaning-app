@@ -9,7 +9,7 @@ class PembersihHarian extends StatelessWidget {
     {'title': 'Kamar Tisha', 'price': 'Rp. 507.000', 'location': 'Belanda'},
     {'title': 'Kamar Salsa', 'price': 'Rp. 888.000', 'location': 'Jember'},
     {'title': 'Kamar Sultan', 'price': 'Rp. 102.000', 'location': 'Batam'},
-    {'title': 'Kamar Kejora', 'price': 'Rp. 798.000', 'location': 'Jember'},
+    {'title': 'Kamar Kejora', 'price': 'Rp. 798.000', 'location': 'Amerika'},
   ];
 
   @override

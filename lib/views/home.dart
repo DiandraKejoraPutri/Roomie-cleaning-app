@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:roomie/views/detail_pesanan.dart';
 import 'package:roomie/views/pembersih.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -157,7 +158,16 @@ class HomeScreen extends StatelessWidget {
 
             SizedBox(height: 10),
 
-            _orderCard("Membesihkan Dapur", "Kedungkandang, Malang", "Rp. 70.000", "⭐ 4.3"),
+            GestureDetector(
+  onTap: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => DetailLayananPage()),
+    );
+  },
+  child: _orderCard("Membersihkan Dapur", "Kedungkandang, Malang", "Rp. 70.000", "⭐ 4.3"),
+),
+
             _orderCard("Menemani Melipat", "Kedungkandang, Malang", "Rp. 150.000", "⭐ 5.3"),
 
             SizedBox(height: 20),
